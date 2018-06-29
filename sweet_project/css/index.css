@@ -1,0 +1,35 @@
+h1 {
+    color: white;
+    font: Impact, Charcoal, sans-serif;
+    text-shadow: -2px 0 #3296B0, 0 2px #3296B0, 2px 0 #3296B0, 0 -2px #3296B0;
+    font-size: 100px;
+    font-family: 'Gruppo';
+}
+
+body {
+    font-family: 'Aclonica';font-size: 22px;
+    background-image:url("https://mail.google.com/mail/u/0/?ui=2&ik=a21804024c&view=fimg&th=1644bfcfdb047e50&attid=0.1&disp=emb&realattid=1644bda01fa454d17221&attbid=ANGjdJ_xqwYcHJi35iHUFfJXA9fa6Uwit1J5L1k3_hMjk94vtdxtbvJNiP1OsR9wdNd98tgNIJqrC1jdFnKo-QulFVeDEw2a_NewLgMByijPDNBFaaznssyzhC_MUzQ&sz=s0-l75-ft&ats=1530283277954&rm=1644bfcfdb047e50&zw&atsh=1");
+    background-position: 0px 0px;
+    background-repeat: repeat-x;
+    background-size: cover;
+    text-align: center;
+    left: 0;
+    margin: auto;
+    margin-top: -200px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+.button {
+    font-family: 'Aclonica';
+    background-color: white;
+    border: none;
+    color: #000BA6;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50%;
+    margin: 10px;}
