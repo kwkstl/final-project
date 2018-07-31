@@ -3,6 +3,11 @@ Bundler.require
 require_relative 'config/environment'
 
 class App < Sinatra::Base
+  configure do
+    set :public_folder, 'sweet_project/css'
+    set :views, 'sweet_project/views'
+  end
+  
 get '/' do
   erb :index
 end
